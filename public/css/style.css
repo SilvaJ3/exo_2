@@ -1,9 +1,11 @@
+/* Exo 1 */
+
 section {
     padding-bottom: 50px;
     border-bottom:black solid 1px;
 }
 
-h4:first-of-type {
+section:first-child>h4 {
     color: blue;
 }
 
@@ -15,7 +17,7 @@ section:nth-child(2) {
 
 /* Exo 3 */
 
-h3,ul {
+section:nth-child(3)>h3,section:nth-child(3)>ul {
     color: red;
 }
 
