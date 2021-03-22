@@ -1,0 +1,45 @@
+section {
+    padding-bottom: 50px;
+    border-bottom:black solid 1px;
+}
+
+h4:first-of-type {
+    color: blue;
+}
+
+/* Exo 2 */
+
+section:nth-child(2) {
+    border-bottom: solid red 5px;
+}
+
+/* Exo 3 */
+
+h3,ul {
+    color: red;
+}
+
+/* Exo 4 */
+
+section>ul>li:nth-child(2) {
+    font-size: 25px;
+}
+
+/* Exo 5 */
+
+h3+span {
+    color: blue;
+}
+
+/* Exo 6 */
+
+img {
+    border: solid black 3px;
+    border-radius: 2%;
+}
+
+/* Exo 7 */
+
+section:nth-child(7)>p:hover {
+    color: green;
+}
